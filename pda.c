@@ -1,4 +1,4 @@
-//it checks the number of o and 1 is balanced or not in input string . of balenced accepted.   
+// it checks the number of o and 1 is balanced or not in input string . of balenced accepted.
 #include <stdio.h>
 #include <string.h>
 #define MAX 100
@@ -30,7 +30,7 @@ int main()
     char st_top = 'e';
     curr_state = delta(curr_state, ch, st_top);
 
-    printf("\n Enter a binary string\t");
+    printf("Enter a binary string\t");
     gets(input);
 
     ch = input[i];
@@ -45,10 +45,10 @@ int main()
         c++;
     }
     if (curr_state == qf)
-        printf("\n The string %s is accepted.", input);
+        printf(" The string %s is accepted.", input);
     else
-        printf("\n The string %s is not accepted.", input);
-    
+        printf(" The string %s is not accepted.", input);
+
     printf("\n By Saroj Dhakal [79010253]");
 
     return 0;

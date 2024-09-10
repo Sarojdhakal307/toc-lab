@@ -62,6 +62,6 @@ int main()
     scanf("%s", str);
 
     process_string(str); // Process the string
-    printf("By Saroj Dhakal [79010253]");
+    printf("\n By Saroj Dhakal [79010253]");
     return 0;
 }
